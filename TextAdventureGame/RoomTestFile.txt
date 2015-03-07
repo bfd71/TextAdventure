@@ -1,0 +1,73 @@
+rmID    10000
+rmName  The Starting Room
+rmDesc  This is the starting point for this experiment.  There are four exits from this room.
+exEast  10010
+exSouth 10002
+exWest  10020
+exNorth 10001
+xxx
+rmID    10010
+rmName  The Eastern Room
+rmDesc  This room is to the east of the starting point.  There are three total exits from this room.
+exEast  99999
+exSouth 10012
+exWest  10000
+exNorth 10011
+xxx
+rmID    10002
+rmName  The Southern Room
+rmDesc  This room is to the south of the starting point.  There are three total exits from this room.
+exEast  10012
+exSouth 99999
+exWest  10022
+exNorth 10000
+xxx
+rmID    10020
+rmName  The Western Room
+rmDesc  This room is to the west of the starting point.  There are three total exits from this room.
+exEast  10000
+exSouth 10022
+exWest  99999
+exNorth 10021
+xxx
+rmID    10001
+rmName  The Northern Room
+rmDesc  This room is to the north of the starting point.  There are three total exits from this room.
+exEast  10011
+exSouth 10000
+exWest  10021
+exNorth 99999
+xxx
+rmID    10011
+rmName  The NorthEast Room
+rmDesc  This room is to the NE of the starting point.  There are two total exits from this room.
+exEast  99999
+exSouth 10010
+exWest  10001
+exNorth 99999
+xxx
+rmID    10012
+rmName  The SouthEast Room
+rmDesc  This room is to the SE of the starting point.  There are two total exits from this room.
+exEast  99999
+exSouth 99999
+exWest  10002
+exNorth 10010
+xxx
+rmID    10022
+rmName  The SouthWest Room
+rmDesc  This room is to the SW of the starting point.  There are two total exits from this room.
+exEast  10002
+exSouth 99999
+exWest  99999
+exNorth 10020
+xxx
+rmID    10021
+rmName  The NorthWest Room
+rmDesc  This room is to the NW of the starting point.  There are two total exits from this room.
+exEast  10001
+exSouth 10020
+exWest  99999
+exNorth 99999
+xxx
+END OF FILE
