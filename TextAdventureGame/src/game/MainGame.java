@@ -3,8 +3,8 @@ package game;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import maps.RoomReader;
-import maps.Rooms;
+import locations.RoomReader;
+import locations.Rooms;
 
 public class MainGame {
 	
@@ -19,14 +19,6 @@ public class MainGame {
 		
 		MainGame.currentRoom(startingRoom);
 		
-/*		// test to make sure roomsList works
-		int numOfRooms = 0;
-		for (Rooms room : roomsList) {
-			numOfRooms++;
-			System.out.println("Room #" + numOfRooms);
-			System.out.println(room.toStringFull());
-		}
-*/		
 	}
 	
 	public static void currentRoom(int rmNumber) {
